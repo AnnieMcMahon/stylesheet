@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('./fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('./fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+  background-color: #DDC299;
+  width: 100%;
+  line-height: 2;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  color: white;
+  background-color: #009688;
+}
+
+.colors div {
+  display: inline-block;
+  border-radius: 10%;
+  padding: 5px 20px;
+  margin: 20px;
+  border: black solid 2px;
+  width: 200px;
+  color: white;
+}
+
+.colors p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#beige {
+  background-color: #DDC299;
+}
+
+#teal {
+  background-color: #009688;
+}
+
+#pink {
+  background-color: #EFA3B5;
+}
+
+#gray {
+  background-color: #5E7A88;
+}
+
+#white {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+#black {
+  background-color: #222222;
+}
+
+.fonts div {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  width: 375px;
+}
+
+.fonts h3 {
+  width: 100%;
+  padding: 8px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#lato p {
+  font-family: Lato, sans-serif;
+}
+
+#lato-upper p {
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+}
+
+#source-sans p {
+  font-family: SourceSansPro, sans-serif;
+}
+
+.text-styles div {
+  display: inline-block;
+  border: black solid 2px;
+  height: 200px;
+  width: 300px;
+  margin: 20px 30px;
+  box-sizing: border-box;
+}
+
+.text-styles h3 {
+  padding: 0;
+  margin: 0;
+  line-height: 60px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #5E7A88;
+}
+
+.text-styles li {
+  font-size: 18px;
+}
+
+#site-title {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+#site-subtitle {
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+#main-title {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 28px;
+  text-align: center;
+}
+
+#subtitles {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#widget-titles {
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+}
+
+#paragraph-text {
+  font-family: SourceSansPro, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
